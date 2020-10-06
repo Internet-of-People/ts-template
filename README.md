@@ -27,7 +27,7 @@ The Hydra blockchain is running at block height: XXXXX 🐉
 
 ## Internet of People
 
-Internet of People (IOP) is building the IOP technology stack to foster decentralization while meeting the diverse needs of users, businesses, and institutions in the Web 3.0 world.
+[Internet of People](https://iop.global) (IOP) is building the IOP technology stack to foster decentralization while meeting the diverse needs of users, businesses, and institutions in the Web 3.0 world.
 
 IOP's technology is open source and available for anyone. Although IOP is dedicated to providing a complete solution to the problems of online identity and privacy, IOP is fully modular without vendor lock-in: users and businesses are free to use and combine any part of the stack they want.
 
