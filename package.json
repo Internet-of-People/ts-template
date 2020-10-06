@@ -11,7 +11,7 @@
     "start": "npm run build && node ."
   },
   "author": "2DT",
-  "license": "GPL-3.0-only",
+  "license": "CC0-1.0",
   "dependencies": {
     "@internet-of-people/sdk": "3.3"
   },
