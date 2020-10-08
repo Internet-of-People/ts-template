@@ -10,20 +10,21 @@ Follow these steps to setup your development environment for CLI applications.
 
 2) Execute the following npm-commands inside your working directory.
 
+```bash
+$ npm install
+$ npm start
 ```
-npm install
-npm start
-``` 
 
 3) Verify that the following message is shown:
+
+```bash
+$ Hello World!🌍
+$ The Hydra blockchain is running at block height: XXXXX 🐉
 ```
-Hello World!🌍 
-The Hydra blockchain is running at block height: XXXXX 🐉 
-```
+
 *XXXXX stands for the block number of the testnet*
 
-4) Start coding in the src/main.ts file. Whenever you want to compile Typescript to Javascript and run your application run `npm start`.
-
+4) Start coding in the `src/main.ts` file. Whenever you want to compile Typescript to Javascript and run your application run `npm start`.
 
 ## Internet of People
 
