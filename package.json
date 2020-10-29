@@ -13,7 +13,7 @@
   "author": "2DT",
   "license": "CC0-1.0",
   "dependencies": {
-    "@internet-of-people/sdk": "3.3"
+    "@internet-of-people/sdk": "4.0.0"
   },
   "devDependencies": {
     "rimraf": "3.0.0",

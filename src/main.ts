@@ -1,9 +1,9 @@
-import { Layer1, Network } from '@internet-of-people/sdk';
+import { Layer1, Network, NetworkConfig } from '@internet-of-people/sdk';
 export const network = Network.Testnet;
 
 const main = async () => {
   //The lines of code below demonstrate the connection with the Hydra blockchain.
-  const api = await Layer1.createApi(network);
+  const api = await Layer1.createApi(NetworkConfig.fromNetwork(network));
   const blockHeight = await api.getCurrentHeight();
 
   console.log("Hello World! 🌍 \nThe Hydra blockchain is running at block height: " + blockHeight.toString() + " 🐉");
