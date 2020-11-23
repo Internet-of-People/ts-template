@@ -1,16 +1,22 @@
 {
   "name": "project-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "private": true,
+  "author": {
+    "url": "https://iop.global/dsf",
+    "name": "Internet of People",
+    "email": "dev@iop-ventures.com"
+  },
   "description": "This project can be used to start developing CLI applications on the IOP stack.",
-  "repository": "https://github.com/Internet-of-People",
+  "repository": "https://github.com/Internet-of-People/ts-template",
   "main": "./dist/main.js",
   "typings": "./dist/main.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "clean": "rimraf dist && rimraf node_modules",
-    "start": "npm run build && node ."
+    "start": "npm run build && node .",
+    "release": "release-it --no-npm.publish"
   },
-  "author": "2DT",
   "license": "CC0-1.0",
   "dependencies": {
     "@internet-of-people/sdk": "4.0.0"
@@ -18,5 +24,13 @@
   "devDependencies": {
     "rimraf": "3.0.0",
     "typescript": "3.8.3"
+  },
+  "release-it": {
+    "git": {
+      "changelog": "npx auto-changelog -p --stdout --commit-limit false -u --commit-url 'https://github.com/Internet-of-People/ts-template/commit/{id}' --compare-url 'https://github.com/Internet-of-People/ts-template/compare/{from}..{to}' --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs --unreleased-only --hide-credit"
+    },
+    "hooks": {
+      "after:bump": "npx auto-changelog -p --commit-limit false -u --commit-url 'https://github.com/Internet-of-People/ts-template/commit/{id}' --compare-url 'https://github.com/Internet-of-People/ts-template/compare/{from}..{to}' --unreleased false --hide-credit"
+    }
   }
 }
