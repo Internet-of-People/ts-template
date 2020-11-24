@@ -19,7 +19,7 @@
   },
   "license": "CC0-1.0",
   "dependencies": {
-    "@internet-of-people/sdk": "4.0.0"
+    "@internet-of-people/sdk": "4.0.3"
   },
   "devDependencies": {
     "rimraf": "3.0.0",
