@@ -34,4 +34,4 @@ IOP's technology is open source and available for anyone. Although IOP is dedica
 
 ## Tutorials
 
-Tutorials for inspiration can be found in IOP's [tutorial center](https://developer.iop.global/#/sdk/dac?id=tutorial-center).
+Tutorials for inspiration can be found in IOP's [tutorial center](https://developer.iop.global/sdk/dac?id=tutorial-center).
