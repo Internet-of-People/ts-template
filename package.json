@@ -1,6 +1,6 @@
 {
   "name": "project-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "author": {
     "url": "https://iop.global/dsf",
@@ -19,7 +19,7 @@
   },
   "license": "CC0-1.0",
   "dependencies": {
-    "@internet-of-people/sdk": "4.0.5"
+    "@internet-of-people/sdk": "5.0.1"
   },
   "devDependencies": {
     "rimraf": "3.0.0",
